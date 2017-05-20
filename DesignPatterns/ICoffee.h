@@ -5,5 +5,5 @@ class ICoffee
 public:
 	virtual double cost() = 0;
 
-	virtual ~ICoffee();
+	virtual ~ICoffee() = default;
 };

@@ -1,7 +1,6 @@
 /*
  * TODO: Prototype
  * TODO: Builder
- * TODO: Abstract factory
  * 
  * TODO: Adapter
  * TODO: Facade

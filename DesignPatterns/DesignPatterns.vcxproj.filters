@@ -5,9 +5,6 @@
     <ClCompile Include="WindowManager.cpp">
       <Filter>Creational\Singleton</Filter>
     </ClCompile>
-    <ClCompile Include="ICoffee.cpp">
-      <Filter>Structural\Decorator</Filter>
-    </ClCompile>
     <ClCompile Include="BlackCoffee.cpp">
       <Filter>Structural\Decorator</Filter>
     </ClCompile>
@@ -17,9 +14,6 @@
     <ClCompile Include="WithMilk.cpp">
       <Filter>Structural\Decorator</Filter>
     </ClCompile>
-    <ClCompile Include="IPerson.cpp">
-      <Filter>Creational\FactoryMethod</Filter>
-    </ClCompile>
     <ClCompile Include="Peasant.cpp">
       <Filter>Creational\FactoryMethod</Filter>
     </ClCompile>
@@ -28,6 +22,18 @@
     </ClCompile>
     <ClCompile Include="PeopleFactory.cpp">
       <Filter>Creational\FactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="Barbie.cpp">
+      <Filter>Creational\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Creational\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="BarbieFactory.cpp">
+      <Filter>Creational\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="CarFactory.cpp">
+      <Filter>Creational\AbstractFactory</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +60,12 @@
     </Filter>
     <Filter Include="Creational\FactoryMethod\Header Files">
       <UniqueIdentifier>{1192e46e-411a-419f-969e-89449903ccda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\AbstractFactory">
+      <UniqueIdentifier>{881490c5-ba5a-440c-85ef-c4b28098849b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\AbstractFactory\Header Files">
+      <UniqueIdentifier>{8b9aebe8-118f-4bed-b8c5-fc59a612135c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +98,24 @@
     </ClInclude>
     <ClInclude Include="PeopleFactory.h">
       <Filter>Creational\FactoryMethod\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IToyFactory.h">
+      <Filter>Creational\AbstractFactory\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarbieFactory.h">
+      <Filter>Creational\AbstractFactory\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CarFactory.h">
+      <Filter>Creational\AbstractFactory\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Barbie.h">
+      <Filter>Creational\AbstractFactory\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Creational\AbstractFactory\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IToy.h">
+      <Filter>Creational\AbstractFactory\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -111,10 +111,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Barbie.cpp" />
+    <ClCompile Include="BarbieFactory.cpp" />
     <ClCompile Include="BlackCoffee.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="CarFactory.cpp" />
     <ClCompile Include="CoffeeDecorator.cpp" />
-    <ClCompile Include="ICoffee.cpp" />
-    <ClCompile Include="IPerson.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Peasant.cpp" />
     <ClCompile Include="PeopleFactory.cpp" />
@@ -123,14 +125,20 @@
     <ClCompile Include="WithMilk.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Barbie.h" />
+    <ClInclude Include="BarbieFactory.h" />
     <ClInclude Include="BlackCoffee.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="CarFactory.h" />
     <ClInclude Include="CoffeeDecorator.h" />
     <ClInclude Include="ICoffee.h" />
     <ClInclude Include="IPerson.h" />
+    <ClInclude Include="IToyFactory.h" />
     <ClInclude Include="Peasant.h" />
     <ClInclude Include="PeopleFactory.h" />
     <ClInclude Include="PersonType.h" />
     <ClInclude Include="Townsman.h" />
+    <ClInclude Include="IToy.h" />
     <ClInclude Include="WindowManager.h" />
     <ClInclude Include="WithMilk.h" />
   </ItemGroup>

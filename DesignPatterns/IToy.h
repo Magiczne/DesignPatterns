@@ -2,10 +2,10 @@
 
 #include <string>
 
-class IPerson
+class IToy
 {
 public:
 	virtual std::string name() = 0;
 
-	virtual ~IPerson() = default;
+	virtual ~IToy() = default;
 };
