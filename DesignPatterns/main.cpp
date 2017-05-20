@@ -1,7 +1,6 @@
 /*
  * TODO: Prototype
  * TODO: Builder
- * TODO: Factory method
  * TODO: Abstract factory
  * 
  * TODO: Adapter

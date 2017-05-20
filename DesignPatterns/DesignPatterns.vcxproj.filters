@@ -17,6 +17,18 @@
     <ClCompile Include="WithMilk.cpp">
       <Filter>Structural\Decorator</Filter>
     </ClCompile>
+    <ClCompile Include="IPerson.cpp">
+      <Filter>Creational\FactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="Peasant.cpp">
+      <Filter>Creational\FactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="Townsman.cpp">
+      <Filter>Creational\FactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="PeopleFactory.cpp">
+      <Filter>Creational\FactoryMethod</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -37,6 +49,12 @@
     <Filter Include="Structural\Decorator\Header Files">
       <UniqueIdentifier>{a2776eda-e993-4c88-8b8d-5d28850462d3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Creational\FactoryMethod">
+      <UniqueIdentifier>{90ec3128-52ae-42ef-8aa9-a1260a30e4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\FactoryMethod\Header Files">
+      <UniqueIdentifier>{1192e46e-411a-419f-969e-89449903ccda}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WindowManager.h">
@@ -53,6 +71,21 @@
     </ClInclude>
     <ClInclude Include="WithMilk.h">
       <Filter>Structural\Decorator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPerson.h">
+      <Filter>Creational\FactoryMethod\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Peasant.h">
+      <Filter>Creational\FactoryMethod\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Townsman.h">
+      <Filter>Creational\FactoryMethod\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonType.h">
+      <Filter>Creational\FactoryMethod\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeopleFactory.h">
+      <Filter>Creational\FactoryMethod\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -114,7 +114,11 @@
     <ClCompile Include="BlackCoffee.cpp" />
     <ClCompile Include="CoffeeDecorator.cpp" />
     <ClCompile Include="ICoffee.cpp" />
+    <ClCompile Include="IPerson.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Peasant.cpp" />
+    <ClCompile Include="PeopleFactory.cpp" />
+    <ClCompile Include="Townsman.cpp" />
     <ClCompile Include="WindowManager.cpp" />
     <ClCompile Include="WithMilk.cpp" />
   </ItemGroup>
@@ -122,6 +126,11 @@
     <ClInclude Include="BlackCoffee.h" />
     <ClInclude Include="CoffeeDecorator.h" />
     <ClInclude Include="ICoffee.h" />
+    <ClInclude Include="IPerson.h" />
+    <ClInclude Include="Peasant.h" />
+    <ClInclude Include="PeopleFactory.h" />
+    <ClInclude Include="PersonType.h" />
+    <ClInclude Include="Townsman.h" />
     <ClInclude Include="WindowManager.h" />
     <ClInclude Include="WithMilk.h" />
   </ItemGroup>
