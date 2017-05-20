@@ -5,7 +5,6 @@
  * TODO: Abstract factory
  * 
  * TODO: Adapter
- * TODO: Decorator
  * TODO: Facade
  * TODO: Composite
  * TODO: Bridge

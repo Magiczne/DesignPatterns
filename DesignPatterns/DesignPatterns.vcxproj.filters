@@ -1,17 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Pliki źródłowe">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>Creational\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="ICoffee.cpp">
+      <Filter>Structural\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackCoffee.cpp">
+      <Filter>Structural\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="CoffeeDecorator.cpp">
+      <Filter>Structural\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="WithMilk.cpp">
+      <Filter>Structural\Decorator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Structural">
+      <UniqueIdentifier>{25c6e7a1-2ce1-4e6d-b868-c8d9bacd56b7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Pliki nagłówkowe">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="Behavioral">
+      <UniqueIdentifier>{a8530e2d-3037-4d2c-9e1b-958daa8f00ac}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Pliki zasobów">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Creational">
+      <UniqueIdentifier>{52ee71ec-6445-4b1a-98cd-7e6c98b54338}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Creational\Singleton">
+      <UniqueIdentifier>{caeaceb5-2c51-4671-ab13-c3adb7001960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Decorator">
+      <UniqueIdentifier>{091e7244-6cd9-4cb6-b5e0-18aaaf2cd4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Decorator\Header Files">
+      <UniqueIdentifier>{a2776eda-e993-4c88-8b8d-5d28850462d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowManager.h">
+      <Filter>Creational\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="ICoffee.h">
+      <Filter>Structural\Decorator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffeeDecorator.h">
+      <Filter>Structural\Decorator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackCoffee.h">
+      <Filter>Structural\Decorator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WithMilk.h">
+      <Filter>Structural\Decorator\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

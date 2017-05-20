@@ -111,6 +111,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BlackCoffee.cpp" />
+    <ClCompile Include="CoffeeDecorator.cpp" />
+    <ClCompile Include="ICoffee.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="WindowManager.cpp" />
+    <ClCompile Include="WithMilk.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlackCoffee.h" />
+    <ClInclude Include="CoffeeDecorator.h" />
+    <ClInclude Include="ICoffee.h" />
+    <ClInclude Include="WindowManager.h" />
+    <ClInclude Include="WithMilk.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
