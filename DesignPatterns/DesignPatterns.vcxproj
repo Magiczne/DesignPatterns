@@ -111,21 +111,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ATVWheelBuilder.cpp" />
     <ClCompile Include="Barbie.cpp" />
     <ClCompile Include="BarbieFactory.cpp" />
     <ClCompile Include="BlackCoffee.cpp" />
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="CarFactory.cpp" />
     <ClCompile Include="CoffeeDecorator.cpp" />
+    <ClCompile Include="IWheelBuilder.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Package.cpp" />
     <ClCompile Include="Peasant.cpp" />
     <ClCompile Include="PeopleFactory.cpp" />
+    <ClCompile Include="Rim.cpp" />
+    <ClCompile Include="SportsWheelBuilder.cpp" />
+    <ClCompile Include="Tire.cpp" />
     <ClCompile Include="Townsman.cpp" />
+    <ClCompile Include="Wheel.cpp" />
     <ClCompile Include="WindowManager.cpp" />
     <ClCompile Include="WithMilk.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ATVWheelBuilder.h" />
     <ClInclude Include="Barbie.h" />
     <ClInclude Include="BarbieFactory.h" />
     <ClInclude Include="BlackCoffee.h" />
@@ -136,12 +143,17 @@
     <ClInclude Include="IPerson.h" />
     <ClInclude Include="IItem.h" />
     <ClInclude Include="IToyFactory.h" />
+    <ClInclude Include="IWheelBuilder.h" />
     <ClInclude Include="Package.h" />
     <ClInclude Include="Peasant.h" />
     <ClInclude Include="PeopleFactory.h" />
     <ClInclude Include="PersonType.h" />
+    <ClInclude Include="Rim.h" />
+    <ClInclude Include="SportsWheelBuilder.h" />
+    <ClInclude Include="Tire.h" />
     <ClInclude Include="Townsman.h" />
     <ClInclude Include="IToy.h" />
+    <ClInclude Include="Wheel.h" />
     <ClInclude Include="WindowManager.h" />
     <ClInclude Include="WithMilk.h" />
   </ItemGroup>

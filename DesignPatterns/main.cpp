@@ -1,6 +1,4 @@
 /*
- * TODO: Builder
- * 
  * TODO: Adapter
  * TODO: Facade
  * TODO: Composite

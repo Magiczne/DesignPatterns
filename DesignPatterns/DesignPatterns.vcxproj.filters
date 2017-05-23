@@ -38,6 +38,24 @@
     <ClCompile Include="Package.cpp">
       <Filter>Creational\Prototype</Filter>
     </ClCompile>
+    <ClCompile Include="Rim.cpp">
+      <Filter>Creational\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Tire.cpp">
+      <Filter>Creational\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Wheel.cpp">
+      <Filter>Creational\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="IWheelBuilder.cpp">
+      <Filter>Creational\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="SportsWheelBuilder.cpp">
+      <Filter>Creational\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="ATVWheelBuilder.cpp">
+      <Filter>Creational\Builder</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -75,6 +93,12 @@
     </Filter>
     <Filter Include="Creational\Prototype\Header Files">
       <UniqueIdentifier>{b9cf0a8f-b886-41ac-b557-63a6aeef8f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\Builder">
+      <UniqueIdentifier>{4e231718-8bc7-46b0-9bc6-5084693044fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\Builder\Header Files">
+      <UniqueIdentifier>{de904a02-aa6c-4028-be47-2109e673dbe7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +155,24 @@
     </ClInclude>
     <ClInclude Include="IItem.h">
       <Filter>Creational\Prototype\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rim.h">
+      <Filter>Creational\Builder\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tire.h">
+      <Filter>Creational\Builder\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wheel.h">
+      <Filter>Creational\Builder\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IWheelBuilder.h">
+      <Filter>Creational\Builder\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SportsWheelBuilder.h">
+      <Filter>Creational\Builder\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ATVWheelBuilder.h">
+      <Filter>Creational\Builder\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
