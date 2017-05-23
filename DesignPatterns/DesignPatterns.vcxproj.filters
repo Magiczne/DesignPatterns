@@ -56,6 +56,15 @@
     <ClCompile Include="ATVWheelBuilder.cpp">
       <Filter>Creational\Builder</Filter>
     </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>Structural\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Swordsman.cpp">
+      <Filter>Structural\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Army.cpp">
+      <Filter>Structural\Composite</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -99,6 +108,12 @@
     </Filter>
     <Filter Include="Creational\Builder\Header Files">
       <UniqueIdentifier>{de904a02-aa6c-4028-be47-2109e673dbe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Composite">
+      <UniqueIdentifier>{6834c03b-a73a-4ab5-a827-1489897999e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Composite\Header Files">
+      <UniqueIdentifier>{0bc8a499-d452-4f87-aa96-51debe750b0e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -173,6 +188,18 @@
     </ClInclude>
     <ClInclude Include="ATVWheelBuilder.h">
       <Filter>Creational\Builder\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Swordsman.h">
+      <Filter>Structural\Composite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>Structural\Composite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Army.h">
+      <Filter>Structural\Composite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IWarrior.h">
+      <Filter>Structural\Composite\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
