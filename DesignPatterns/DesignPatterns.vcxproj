@@ -121,6 +121,8 @@
     <ClCompile Include="CarFactory.cpp" />
     <ClCompile Include="CoffeeDecorator.cpp" />
     <ClCompile Include="IWheelBuilder.cpp" />
+    <ClCompile Include="JPGImage.cpp" />
+    <ClCompile Include="JPGImageProxy.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Package.cpp" />
     <ClCompile Include="Peasant.cpp" />
@@ -145,11 +147,14 @@
     <ClInclude Include="CarFactory.h" />
     <ClInclude Include="CoffeeDecorator.h" />
     <ClInclude Include="ICoffee.h" />
+    <ClInclude Include="IImage.h" />
+    <ClInclude Include="JPGImageProxy.h" />
     <ClInclude Include="IPerson.h" />
     <ClInclude Include="IItem.h" />
     <ClInclude Include="IToyFactory.h" />
     <ClInclude Include="IWarrior.h" />
     <ClInclude Include="IWheelBuilder.h" />
+    <ClInclude Include="JPGImage.h" />
     <ClInclude Include="Package.h" />
     <ClInclude Include="Peasant.h" />
     <ClInclude Include="PeopleFactory.h" />

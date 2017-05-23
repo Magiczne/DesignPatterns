@@ -65,6 +65,12 @@
     <ClCompile Include="Army.cpp">
       <Filter>Structural\Composite</Filter>
     </ClCompile>
+    <ClCompile Include="JPGImage.cpp">
+      <Filter>Structural\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="JPGImageProxy.cpp">
+      <Filter>Structural\Proxy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -114,6 +120,12 @@
     </Filter>
     <Filter Include="Structural\Composite\Header Files">
       <UniqueIdentifier>{0bc8a499-d452-4f87-aa96-51debe750b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Proxy">
+      <UniqueIdentifier>{26fc432b-440e-4a35-a681-a59381b747aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Proxy\Header Files">
+      <UniqueIdentifier>{6bece8ef-1842-4aa6-9196-b6bac9fd756f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -200,6 +212,15 @@
     </ClInclude>
     <ClInclude Include="IWarrior.h">
       <Filter>Structural\Composite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JPGImage.h">
+      <Filter>Structural\Proxy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IImage.h">
+      <Filter>Structural\Proxy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JPGImageProxy.h">
+      <Filter>Structural\Proxy\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

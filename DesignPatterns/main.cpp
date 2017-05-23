@@ -2,7 +2,6 @@
  * TODO: Adapter
  * TODO: Facade
  * TODO: Bridge
- * TODO: Proxy
  * TODO: Flyweight
  * 
  * TODO: CoR
