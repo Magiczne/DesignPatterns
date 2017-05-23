@@ -35,6 +35,9 @@
     <ClCompile Include="CarFactory.cpp">
       <Filter>Creational\AbstractFactory</Filter>
     </ClCompile>
+    <ClCompile Include="Package.cpp">
+      <Filter>Creational\Prototype</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -66,6 +69,12 @@
     </Filter>
     <Filter Include="Creational\AbstractFactory\Header Files">
       <UniqueIdentifier>{8b9aebe8-118f-4bed-b8c5-fc59a612135c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\Prototype">
+      <UniqueIdentifier>{c80cb7a8-70b0-4c6b-92dc-47197e4a3a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\Prototype\Header Files">
+      <UniqueIdentifier>{b9cf0a8f-b886-41ac-b557-63a6aeef8f81}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +125,12 @@
     </ClInclude>
     <ClInclude Include="IToy.h">
       <Filter>Creational\AbstractFactory\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Package.h">
+      <Filter>Creational\Prototype\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IItem.h">
+      <Filter>Creational\Prototype\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

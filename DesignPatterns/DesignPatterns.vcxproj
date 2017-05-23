@@ -118,6 +118,7 @@
     <ClCompile Include="CarFactory.cpp" />
     <ClCompile Include="CoffeeDecorator.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Package.cpp" />
     <ClCompile Include="Peasant.cpp" />
     <ClCompile Include="PeopleFactory.cpp" />
     <ClCompile Include="Townsman.cpp" />
@@ -133,7 +134,9 @@
     <ClInclude Include="CoffeeDecorator.h" />
     <ClInclude Include="ICoffee.h" />
     <ClInclude Include="IPerson.h" />
+    <ClInclude Include="IItem.h" />
     <ClInclude Include="IToyFactory.h" />
+    <ClInclude Include="Package.h" />
     <ClInclude Include="Peasant.h" />
     <ClInclude Include="PeopleFactory.h" />
     <ClInclude Include="PersonType.h" />

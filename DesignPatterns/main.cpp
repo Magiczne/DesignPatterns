@@ -1,5 +1,4 @@
 /*
- * TODO: Prototype
  * TODO: Builder
  * 
  * TODO: Adapter
