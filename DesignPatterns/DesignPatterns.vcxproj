@@ -111,6 +111,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Archer.cpp" />
+    <ClCompile Include="Army.cpp" />
     <ClCompile Include="ATVWheelBuilder.cpp" />
     <ClCompile Include="Barbie.cpp" />
     <ClCompile Include="BarbieFactory.cpp" />
@@ -125,6 +127,7 @@
     <ClCompile Include="PeopleFactory.cpp" />
     <ClCompile Include="Rim.cpp" />
     <ClCompile Include="SportsWheelBuilder.cpp" />
+    <ClCompile Include="Swordsman.cpp" />
     <ClCompile Include="Tire.cpp" />
     <ClCompile Include="Townsman.cpp" />
     <ClCompile Include="Wheel.cpp" />
@@ -132,6 +135,8 @@
     <ClCompile Include="WithMilk.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Archer.h" />
+    <ClInclude Include="Army.h" />
     <ClInclude Include="ATVWheelBuilder.h" />
     <ClInclude Include="Barbie.h" />
     <ClInclude Include="BarbieFactory.h" />
@@ -143,6 +148,7 @@
     <ClInclude Include="IPerson.h" />
     <ClInclude Include="IItem.h" />
     <ClInclude Include="IToyFactory.h" />
+    <ClInclude Include="IWarrior.h" />
     <ClInclude Include="IWheelBuilder.h" />
     <ClInclude Include="Package.h" />
     <ClInclude Include="Peasant.h" />
@@ -150,6 +156,7 @@
     <ClInclude Include="PersonType.h" />
     <ClInclude Include="Rim.h" />
     <ClInclude Include="SportsWheelBuilder.h" />
+    <ClInclude Include="Swordsman.h" />
     <ClInclude Include="Tire.h" />
     <ClInclude Include="Townsman.h" />
     <ClInclude Include="IToy.h" />

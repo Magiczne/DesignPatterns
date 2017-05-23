@@ -1,7 +1,6 @@
 /*
  * TODO: Adapter
  * TODO: Facade
- * TODO: Composite
  * TODO: Bridge
  * TODO: Proxy
  * TODO: Flyweight
