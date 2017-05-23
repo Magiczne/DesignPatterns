@@ -1,6 +1,5 @@
 /*
  * TODO: Adapter
- * TODO: Facade
  * TODO: Bridge
  * TODO: Flyweight
  * 

@@ -71,6 +71,15 @@
     <ClCompile Include="JPGImageProxy.cpp">
       <Filter>Structural\Proxy</Filter>
     </ClCompile>
+    <ClCompile Include="Band.cpp">
+      <Filter>Structural\Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="Vocalist.cpp">
+      <Filter>Structural\Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="Guitarist.cpp">
+      <Filter>Structural\Facade</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -126,6 +135,12 @@
     </Filter>
     <Filter Include="Structural\Proxy\Header Files">
       <UniqueIdentifier>{6bece8ef-1842-4aa6-9196-b6bac9fd756f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Facade">
+      <UniqueIdentifier>{4876584e-b01d-49e0-9eaf-ca3ae84197fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Facade\Header Files">
+      <UniqueIdentifier>{11ffa1ce-311f-4b5c-ad85-a56574f07838}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -221,6 +236,15 @@
     </ClInclude>
     <ClInclude Include="JPGImageProxy.h">
       <Filter>Structural\Proxy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Band.h">
+      <Filter>Structural\Facade\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Guitarist.h">
+      <Filter>Structural\Facade\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vocalist.h">
+      <Filter>Structural\Facade\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

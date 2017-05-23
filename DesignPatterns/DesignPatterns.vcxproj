@@ -114,12 +114,14 @@
     <ClCompile Include="Archer.cpp" />
     <ClCompile Include="Army.cpp" />
     <ClCompile Include="ATVWheelBuilder.cpp" />
+    <ClCompile Include="Band.cpp" />
     <ClCompile Include="Barbie.cpp" />
     <ClCompile Include="BarbieFactory.cpp" />
     <ClCompile Include="BlackCoffee.cpp" />
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="CarFactory.cpp" />
     <ClCompile Include="CoffeeDecorator.cpp" />
+    <ClCompile Include="Guitarist.cpp" />
     <ClCompile Include="IWheelBuilder.cpp" />
     <ClCompile Include="JPGImage.cpp" />
     <ClCompile Include="JPGImageProxy.cpp" />
@@ -132,6 +134,7 @@
     <ClCompile Include="Swordsman.cpp" />
     <ClCompile Include="Tire.cpp" />
     <ClCompile Include="Townsman.cpp" />
+    <ClCompile Include="Vocalist.cpp" />
     <ClCompile Include="Wheel.cpp" />
     <ClCompile Include="WindowManager.cpp" />
     <ClCompile Include="WithMilk.cpp" />
@@ -146,6 +149,7 @@
     <ClInclude Include="Car.h" />
     <ClInclude Include="CarFactory.h" />
     <ClInclude Include="CoffeeDecorator.h" />
+    <ClInclude Include="Guitarist.h" />
     <ClInclude Include="ICoffee.h" />
     <ClInclude Include="IImage.h" />
     <ClInclude Include="JPGImageProxy.h" />
@@ -155,6 +159,7 @@
     <ClInclude Include="IWarrior.h" />
     <ClInclude Include="IWheelBuilder.h" />
     <ClInclude Include="JPGImage.h" />
+    <ClInclude Include="Band.h" />
     <ClInclude Include="Package.h" />
     <ClInclude Include="Peasant.h" />
     <ClInclude Include="PeopleFactory.h" />
@@ -165,6 +170,7 @@
     <ClInclude Include="Tire.h" />
     <ClInclude Include="Townsman.h" />
     <ClInclude Include="IToy.h" />
+    <ClInclude Include="Vocalist.h" />
     <ClInclude Include="Wheel.h" />
     <ClInclude Include="WindowManager.h" />
     <ClInclude Include="WithMilk.h" />
