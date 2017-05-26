@@ -86,6 +86,12 @@
     <ClCompile Include="Middleware.cpp">
       <Filter>Behavioral\ChainOfResponsibility</Filter>
     </ClCompile>
+    <ClCompile Include="Auctioneer.cpp">
+      <Filter>Behavioral\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Bidder.cpp">
+      <Filter>Behavioral\Observer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -153,6 +159,12 @@
     </Filter>
     <Filter Include="Behavioral\ChainOfResponsibility\Header Files">
       <UniqueIdentifier>{16389fdc-232b-4146-918e-4485a73ca67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Observer">
+      <UniqueIdentifier>{3ce81ce5-3ff4-4d39-96d0-cdcdee6b671d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Observer\Header Files">
+      <UniqueIdentifier>{a6806cb7-c168-4552-ba62-08d62dfd06a9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -264,5 +276,19 @@
     <ClInclude Include="Middleware.h">
       <Filter>Behavioral\ChainOfResponsibility\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Auctioneer.h">
+      <Filter>Behavioral\Observer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RichBidder.h">
+      <Filter>Behavioral\Observer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bidder.h">
+      <Filter>Behavioral\Observer\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RichBidder.cpp">
+      <Filter>Behavioral\Observer</Filter>
+    </None>
   </ItemGroup>
 </Project>

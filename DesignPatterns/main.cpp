@@ -6,7 +6,6 @@
  * TODO: Command
  * TODO: Mediator
  * TODO: Memento
- * TODO: Observer
  * TODO: State
  * TODO: Strategy
  * TODO: Visitor

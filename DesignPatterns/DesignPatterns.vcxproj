@@ -114,9 +114,11 @@
     <ClCompile Include="Archer.cpp" />
     <ClCompile Include="Army.cpp" />
     <ClCompile Include="ATVWheelBuilder.cpp" />
+    <ClCompile Include="Auctioneer.cpp" />
     <ClCompile Include="Band.cpp" />
     <ClCompile Include="Barbie.cpp" />
     <ClCompile Include="BarbieFactory.cpp" />
+    <ClCompile Include="Bidder.cpp" />
     <ClCompile Include="BlackCoffee.cpp" />
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="CarFactory.cpp" />
@@ -145,8 +147,10 @@
     <ClInclude Include="Archer.h" />
     <ClInclude Include="Army.h" />
     <ClInclude Include="ATVWheelBuilder.h" />
+    <ClInclude Include="Auctioneer.h" />
     <ClInclude Include="Barbie.h" />
     <ClInclude Include="BarbieFactory.h" />
+    <ClInclude Include="Bidder.h" />
     <ClInclude Include="BlackCoffee.h" />
     <ClInclude Include="Car.h" />
     <ClInclude Include="CarFactory.h" />
@@ -168,6 +172,7 @@
     <ClInclude Include="PeopleFactory.h" />
     <ClInclude Include="PersonType.h" />
     <ClInclude Include="Request.h" />
+    <ClInclude Include="RichBidder.h" />
     <ClInclude Include="Rim.h" />
     <ClInclude Include="SportsWheelBuilder.h" />
     <ClInclude Include="Swordsman.h" />
@@ -178,6 +183,9 @@
     <ClInclude Include="Wheel.h" />
     <ClInclude Include="WindowManager.h" />
     <ClInclude Include="WithMilk.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RichBidder.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
