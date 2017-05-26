@@ -125,6 +125,12 @@
     <ClCompile Include="RubberDuck.cpp">
       <Filter>Behavioral\Strategy</Filter>
     </ClCompile>
+    <ClCompile Include="VolumeMemento.cpp">
+      <Filter>Behavioral\Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeMeter.cpp">
+      <Filter>Behavioral\Memento</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -216,6 +222,12 @@
     </Filter>
     <Filter Include="Behavioral\Strategy\Header Files">
       <UniqueIdentifier>{3797055c-895a-4869-b76f-26877785f6af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Memento">
+      <UniqueIdentifier>{9dd8a4ea-e6ee-438b-880e-a6ab3e5ad872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Memento\Header Files">
+      <UniqueIdentifier>{cb29dab0-26f5-4bab-9b3f-6d86c43038dc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -377,6 +389,12 @@
     </ClInclude>
     <ClInclude Include="RubberDuck.h">
       <Filter>Behavioral\Strategy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeMeter.h">
+      <Filter>Behavioral\Memento\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeMemento.h">
+      <Filter>Behavioral\Memento\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

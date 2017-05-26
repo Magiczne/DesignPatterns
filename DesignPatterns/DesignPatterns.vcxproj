@@ -149,6 +149,8 @@
     <ClCompile Include="Tire.cpp" />
     <ClCompile Include="Townsman.cpp" />
     <ClCompile Include="Vocalist.cpp" />
+    <ClCompile Include="VolumeMemento.cpp" />
+    <ClCompile Include="VolumeMeter.cpp" />
     <ClCompile Include="Wheel.cpp" />
     <ClCompile Include="WildDuck.cpp" />
     <ClCompile Include="WindowManager.cpp" />
@@ -204,6 +206,8 @@
     <ClInclude Include="Townsman.h" />
     <ClInclude Include="IToy.h" />
     <ClInclude Include="Vocalist.h" />
+    <ClInclude Include="VolumeMemento.h" />
+    <ClInclude Include="VolumeMeter.h" />
     <ClInclude Include="Wheel.h" />
     <ClInclude Include="WildDuck.h" />
     <ClInclude Include="WindowManager.h" />
