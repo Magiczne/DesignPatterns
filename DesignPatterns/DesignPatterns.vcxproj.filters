@@ -80,6 +80,12 @@
     <ClCompile Include="Guitarist.cpp">
       <Filter>Structural\Facade</Filter>
     </ClCompile>
+    <ClCompile Include="Request.cpp">
+      <Filter>Behavioral\ChainOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="Middleware.cpp">
+      <Filter>Behavioral\ChainOfResponsibility</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -141,6 +147,12 @@
     </Filter>
     <Filter Include="Structural\Facade\Header Files">
       <UniqueIdentifier>{11ffa1ce-311f-4b5c-ad85-a56574f07838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\ChainOfResponsibility">
+      <UniqueIdentifier>{99c9682e-0f02-47d0-a032-d3384d5b1dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\ChainOfResponsibility\Header Files">
+      <UniqueIdentifier>{16389fdc-232b-4146-918e-4485a73ca67c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -245,6 +257,12 @@
     </ClInclude>
     <ClInclude Include="Vocalist.h">
       <Filter>Structural\Facade\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Request.h">
+      <Filter>Behavioral\ChainOfResponsibility\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Middleware.h">
+      <Filter>Behavioral\ChainOfResponsibility\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

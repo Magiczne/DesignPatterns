@@ -126,9 +126,11 @@
     <ClCompile Include="JPGImage.cpp" />
     <ClCompile Include="JPGImageProxy.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Middleware.cpp" />
     <ClCompile Include="Package.cpp" />
     <ClCompile Include="Peasant.cpp" />
     <ClCompile Include="PeopleFactory.cpp" />
+    <ClCompile Include="Request.cpp" />
     <ClCompile Include="Rim.cpp" />
     <ClCompile Include="SportsWheelBuilder.cpp" />
     <ClCompile Include="Swordsman.cpp" />
@@ -160,10 +162,12 @@
     <ClInclude Include="IWheelBuilder.h" />
     <ClInclude Include="JPGImage.h" />
     <ClInclude Include="Band.h" />
+    <ClInclude Include="Middleware.h" />
     <ClInclude Include="Package.h" />
     <ClInclude Include="Peasant.h" />
     <ClInclude Include="PeopleFactory.h" />
     <ClInclude Include="PersonType.h" />
+    <ClInclude Include="Request.h" />
     <ClInclude Include="Rim.h" />
     <ClInclude Include="SportsWheelBuilder.h" />
     <ClInclude Include="Swordsman.h" />

@@ -3,7 +3,6 @@
  * TODO: Bridge
  * TODO: Flyweight
  * 
- * TODO: CoR
  * TODO: Command
  * TODO: Mediator
  * TODO: Memento
