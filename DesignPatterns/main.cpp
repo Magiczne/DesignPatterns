@@ -4,7 +4,6 @@
  * TODO: Flyweight
  * 
  * TODO: Command
- * TODO: Mediator
  * TODO: Memento
  * TODO: State
  * TODO: Strategy

@@ -92,6 +92,12 @@
     <ClCompile Include="Bidder.cpp">
       <Filter>Behavioral\Observer</Filter>
     </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Behavioral\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediator.cpp">
+      <Filter>Behavioral\Mediator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -165,6 +171,12 @@
     </Filter>
     <Filter Include="Behavioral\Observer\Header Files">
       <UniqueIdentifier>{a6806cb7-c168-4552-ba62-08d62dfd06a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Mediator">
+      <UniqueIdentifier>{053c941a-5a43-4e2f-a301-969534d419db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Mediator\Header Files">
+      <UniqueIdentifier>{50b4d289-09f4-470c-b191-a17d7fa718d2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -284,6 +296,15 @@
     </ClInclude>
     <ClInclude Include="Bidder.h">
       <Filter>Behavioral\Observer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IMediator.h">
+      <Filter>Behavioral\Mediator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Behavioral\Mediator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator.h">
+      <Filter>Behavioral\Mediator\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
