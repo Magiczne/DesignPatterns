@@ -122,6 +122,8 @@
     <ClCompile Include="BlackCoffee.cpp" />
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="CarFactory.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="CircleAdapter.cpp" />
     <ClCompile Include="CoffeeDecorator.cpp" />
     <ClCompile Include="Guitarist.cpp" />
     <ClCompile Include="IWheelBuilder.cpp" />
@@ -137,6 +139,8 @@
     <ClCompile Include="Request.cpp" />
     <ClCompile Include="Rim.cpp" />
     <ClCompile Include="SportsWheelBuilder.cpp" />
+    <ClCompile Include="Square.cpp" />
+    <ClCompile Include="SquareAdapter.cpp" />
     <ClCompile Include="Swordsman.cpp" />
     <ClCompile Include="Tire.cpp" />
     <ClCompile Include="Townsman.cpp" />
@@ -156,11 +160,14 @@
     <ClInclude Include="BlackCoffee.h" />
     <ClInclude Include="Car.h" />
     <ClInclude Include="CarFactory.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="CircleAdapter.h" />
     <ClInclude Include="CoffeeDecorator.h" />
     <ClInclude Include="Guitarist.h" />
     <ClInclude Include="ICoffee.h" />
     <ClInclude Include="IImage.h" />
     <ClInclude Include="IMediator.h" />
+    <ClInclude Include="IShape.h" />
     <ClInclude Include="JPGImageProxy.h" />
     <ClInclude Include="IPerson.h" />
     <ClInclude Include="IItem.h" />
@@ -180,6 +187,8 @@
     <ClInclude Include="RichBidder.h" />
     <ClInclude Include="Rim.h" />
     <ClInclude Include="SportsWheelBuilder.h" />
+    <ClInclude Include="Square.h" />
+    <ClInclude Include="SquareAdapter.h" />
     <ClInclude Include="Swordsman.h" />
     <ClInclude Include="Tire.h" />
     <ClInclude Include="Townsman.h" />

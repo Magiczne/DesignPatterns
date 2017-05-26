@@ -1,5 +1,4 @@
 /*
- * TODO: Adapter
  * TODO: Bridge
  * TODO: Flyweight
  * 

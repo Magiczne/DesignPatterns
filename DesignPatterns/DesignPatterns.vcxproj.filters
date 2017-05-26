@@ -98,6 +98,18 @@
     <ClCompile Include="Mediator.cpp">
       <Filter>Behavioral\Mediator</Filter>
     </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Structural\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Structural\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareAdapter.cpp">
+      <Filter>Structural\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleAdapter.cpp">
+      <Filter>Structural\Adapter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -177,6 +189,12 @@
     </Filter>
     <Filter Include="Behavioral\Mediator\Header Files">
       <UniqueIdentifier>{50b4d289-09f4-470c-b191-a17d7fa718d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Adapter">
+      <UniqueIdentifier>{33066d0c-236d-4c72-b285-22ee864ad7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Adapter\Header Files">
+      <UniqueIdentifier>{c87729c8-7a7e-4780-bb26-8b48e6bf78b6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -305,6 +323,21 @@
     </ClInclude>
     <ClInclude Include="Mediator.h">
       <Filter>Behavioral\Mediator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Structural\Adapter\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Structural\Adapter\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IShape.h">
+      <Filter>Structural\Adapter\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleAdapter.h">
+      <Filter>Structural\Adapter\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareAdapter.h">
+      <Filter>Structural\Adapter\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
