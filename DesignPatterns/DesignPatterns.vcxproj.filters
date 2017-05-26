@@ -110,6 +110,21 @@
     <ClCompile Include="CircleAdapter.cpp">
       <Filter>Structural\Adapter</Filter>
     </ClCompile>
+    <ClCompile Include="Duck.cpp">
+      <Filter>Behavioral\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicFlying.cpp">
+      <Filter>Behavioral\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="NotFlying.cpp">
+      <Filter>Behavioral\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="WildDuck.cpp">
+      <Filter>Behavioral\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="RubberDuck.cpp">
+      <Filter>Behavioral\Strategy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -195,6 +210,12 @@
     </Filter>
     <Filter Include="Structural\Adapter\Header Files">
       <UniqueIdentifier>{c87729c8-7a7e-4780-bb26-8b48e6bf78b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Strategy">
+      <UniqueIdentifier>{c0b3472f-fa59-4b1b-ad53-044a8ad9c58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Strategy\Header Files">
+      <UniqueIdentifier>{3797055c-895a-4869-b76f-26877785f6af}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -338,6 +359,24 @@
     </ClInclude>
     <ClInclude Include="SquareAdapter.h">
       <Filter>Structural\Adapter\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Duck.h">
+      <Filter>Behavioral\Strategy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicFlying.h">
+      <Filter>Behavioral\Strategy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IFlyingStrategy.h">
+      <Filter>Behavioral\Strategy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NotFlying.h">
+      <Filter>Behavioral\Strategy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WildDuck.h">
+      <Filter>Behavioral\Strategy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RubberDuck.h">
+      <Filter>Behavioral\Strategy\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

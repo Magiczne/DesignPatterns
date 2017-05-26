@@ -118,6 +118,7 @@
     <ClCompile Include="Band.cpp" />
     <ClCompile Include="Barbie.cpp" />
     <ClCompile Include="BarbieFactory.cpp" />
+    <ClCompile Include="BasicFlying.cpp" />
     <ClCompile Include="Bidder.cpp" />
     <ClCompile Include="BlackCoffee.cpp" />
     <ClCompile Include="Car.cpp" />
@@ -125,6 +126,7 @@
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="CircleAdapter.cpp" />
     <ClCompile Include="CoffeeDecorator.cpp" />
+    <ClCompile Include="Duck.cpp" />
     <ClCompile Include="Guitarist.cpp" />
     <ClCompile Include="IWheelBuilder.cpp" />
     <ClCompile Include="JPGImage.cpp" />
@@ -132,12 +134,14 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mediator.cpp" />
     <ClCompile Include="Middleware.cpp" />
+    <ClCompile Include="NotFlying.cpp" />
     <ClCompile Include="Package.cpp" />
     <ClCompile Include="Peasant.cpp" />
     <ClCompile Include="PeopleFactory.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Request.cpp" />
     <ClCompile Include="Rim.cpp" />
+    <ClCompile Include="RubberDuck.cpp" />
     <ClCompile Include="SportsWheelBuilder.cpp" />
     <ClCompile Include="Square.cpp" />
     <ClCompile Include="SquareAdapter.cpp" />
@@ -146,6 +150,7 @@
     <ClCompile Include="Townsman.cpp" />
     <ClCompile Include="Vocalist.cpp" />
     <ClCompile Include="Wheel.cpp" />
+    <ClCompile Include="WildDuck.cpp" />
     <ClCompile Include="WindowManager.cpp" />
     <ClCompile Include="WithMilk.cpp" />
   </ItemGroup>
@@ -156,6 +161,7 @@
     <ClInclude Include="Auctioneer.h" />
     <ClInclude Include="Barbie.h" />
     <ClInclude Include="BarbieFactory.h" />
+    <ClInclude Include="BasicFlying.h" />
     <ClInclude Include="Bidder.h" />
     <ClInclude Include="BlackCoffee.h" />
     <ClInclude Include="Car.h" />
@@ -163,8 +169,10 @@
     <ClInclude Include="Circle.h" />
     <ClInclude Include="CircleAdapter.h" />
     <ClInclude Include="CoffeeDecorator.h" />
+    <ClInclude Include="Duck.h" />
     <ClInclude Include="Guitarist.h" />
     <ClInclude Include="ICoffee.h" />
+    <ClInclude Include="IFlyingStrategy.h" />
     <ClInclude Include="IImage.h" />
     <ClInclude Include="IMediator.h" />
     <ClInclude Include="IShape.h" />
@@ -178,6 +186,7 @@
     <ClInclude Include="Band.h" />
     <ClInclude Include="Mediator.h" />
     <ClInclude Include="Middleware.h" />
+    <ClInclude Include="NotFlying.h" />
     <ClInclude Include="Package.h" />
     <ClInclude Include="Peasant.h" />
     <ClInclude Include="PeopleFactory.h" />
@@ -186,6 +195,7 @@
     <ClInclude Include="Request.h" />
     <ClInclude Include="RichBidder.h" />
     <ClInclude Include="Rim.h" />
+    <ClInclude Include="RubberDuck.h" />
     <ClInclude Include="SportsWheelBuilder.h" />
     <ClInclude Include="Square.h" />
     <ClInclude Include="SquareAdapter.h" />
@@ -195,6 +205,7 @@
     <ClInclude Include="IToy.h" />
     <ClInclude Include="Vocalist.h" />
     <ClInclude Include="Wheel.h" />
+    <ClInclude Include="WildDuck.h" />
     <ClInclude Include="WindowManager.h" />
     <ClInclude Include="WithMilk.h" />
   </ItemGroup>

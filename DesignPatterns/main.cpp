@@ -5,7 +5,6 @@
  * TODO: Command
  * TODO: Memento
  * TODO: State
- * TODO: Strategy
  * TODO: Visitor
  *
  */
