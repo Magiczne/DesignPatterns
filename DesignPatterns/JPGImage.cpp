@@ -1,7 +1,9 @@
 #include "JPGImage.h"
+
 #include <iostream>
 
 using namespace std;
+using namespace Proxy;
 
 JPGImage::JPGImage(string filename)
 {

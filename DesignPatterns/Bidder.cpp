@@ -1,5 +1,7 @@
 #include "Bidder.h"
 
+using namespace Observer;
+
 Bidder::Bidder(int cash)
 {
 	this->cash(cash);

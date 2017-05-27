@@ -1,21 +1,25 @@
 #pragma once
 
-#include <memory>
-
 #include "IImage.h"
-#include "JPGImage.h"
+
+#include <memory>
+#include <string>
 
 //Virtual proxy type
 
-class JPGImageProxy
-	: public IImage
+namespace Proxy
 {
-private:
-	std::string _filename;
-	std::shared_ptr<JPGImage> _image;
+	class JPGImage;
 
-public:
-	explicit JPGImageProxy(std::string filename);
+	class JPGImageProxy : public IImage
+	{
+	private:
+		std::string _filename;
+		std::shared_ptr<JPGImage> _image;
 
-	void show() override;
-};
+	public:
+		explicit JPGImageProxy(std::string filename);
+
+		void show() override;
+	};
+}

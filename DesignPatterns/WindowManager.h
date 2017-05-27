@@ -2,14 +2,17 @@
 
 #include <memory>
 
-class WindowManager
+namespace Singleton
 {
-protected:
-	WindowManager();
+	class WindowManager
+	{
+	protected:
+		WindowManager();
 
-public:
-	static std::shared_ptr<WindowManager> getInstance();
+	public:
+		static std::shared_ptr<WindowManager> getInstance();
 
-	WindowManager(WindowManager const&) = delete;
-	void operator=(WindowManager const&) = delete;
-};
+		WindowManager(WindowManager const&) = delete;
+		void operator=(WindowManager const&) = delete;
+	};
+}

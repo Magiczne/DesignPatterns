@@ -1,6 +1,9 @@
 #include "Peasant.h"
 
-std::string Peasant::name()
+using namespace std;
+using namespace FactoryMethod;
+
+string Peasant::name()
 {
 	return "Peasant";
 }

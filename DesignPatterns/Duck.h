@@ -2,18 +2,21 @@
 
 #include <memory>
 
-#include "IFlyingStrategy.h"
-
-class Duck
+namespace Strategy
 {
-private:
-	std::shared_ptr<IFlyingStrategy> _flyStrategy;
+	class IFlyingStrategy;
 
-public:
-	virtual ~Duck() = default;
+	class Duck
+	{
+	private:
+		std::shared_ptr<IFlyingStrategy> _flyStrategy;
 
-	void fly() const;
-	virtual void showMe() = 0;
+	public:
+		virtual ~Duck() = default;
 
-	void flyStrategy(std::shared_ptr<IFlyingStrategy> value);
-};
+		void fly() const;
+		virtual void showMe() = 0;
+
+		void flyStrategy(std::shared_ptr<IFlyingStrategy> value);
+	};
+}

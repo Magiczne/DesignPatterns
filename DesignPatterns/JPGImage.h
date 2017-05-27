@@ -1,16 +1,19 @@
 #pragma once
 
 #include "IImage.h"
+
 #include <string>
 
-class JPGImage 
-	: public IImage
+namespace Proxy
 {
-private:
-	std::string _filename;
+	class JPGImage : public IImage
+	{
+	private:
+		std::string _filename;
 
-public:
-	explicit JPGImage(std::string filename);
+	public:
+		explicit JPGImage(std::string filename);
 
-	void show() override;
-};
+		void show() override;
+	};
+}

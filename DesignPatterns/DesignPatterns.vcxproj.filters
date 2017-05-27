@@ -354,9 +354,6 @@
     <ClInclude Include="Person.h">
       <Filter>Behavioral\Mediator\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Mediator.h">
-      <Filter>Behavioral\Mediator\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Circle.h">
       <Filter>Structural\Adapter\Header Files</Filter>
     </ClInclude>
@@ -395,6 +392,9 @@
     </ClInclude>
     <ClInclude Include="VolumeMemento.h">
       <Filter>Behavioral\Memento\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeopleMediator.h">
+      <Filter>Behavioral\Mediator\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

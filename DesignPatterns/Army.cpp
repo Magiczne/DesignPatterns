@@ -1,6 +1,7 @@
 #include "Army.h"
 
 using namespace std;
+using namespace Composite;
 
 void Army::call(shared_ptr<IWarrior> warrior)
 {
@@ -20,7 +21,7 @@ void Army::release(shared_ptr<IWarrior> warrior)
 
 void Army::attack()
 {
-	for(const auto& warrior : this->_warriors)
+	for (const auto& warrior : this->_warriors)
 	{
 		warrior->attack();
 	}

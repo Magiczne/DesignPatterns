@@ -1,13 +1,16 @@
 #pragma once
 
-#include "IToy.h"
-
 #include <memory>
 
-class IToyFactory
+namespace AbstractFactory
 {
-public:
-	virtual std::shared_ptr<IToy> createToy() = 0;
+	class IToy;
 
-	virtual ~IToyFactory() = default;
-};
+	class IToyFactory
+	{
+	public:
+		virtual std::shared_ptr<IToy> createToy() = 0;
+
+		virtual ~IToyFactory() = default;
+	};
+}

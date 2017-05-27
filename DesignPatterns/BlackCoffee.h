@@ -2,13 +2,16 @@
 
 #include "ICoffee.h"
 
-class BlackCoffee : public ICoffee
+namespace Decorator
 {
-private:
-	double _cost;
+	class BlackCoffee : public ICoffee
+	{
+	private:
+		double _cost;
 
-public:
-	explicit BlackCoffee(double cost);
+	public:
+		explicit BlackCoffee(double cost);
 
-	double cost() override;
-};
+		double cost() override;
+	};
+}

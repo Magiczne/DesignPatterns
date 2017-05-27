@@ -1,12 +1,15 @@
 #pragma once
 
-class Rim
+namespace Builder
 {
-private:
-	int _size;
+	class Rim
+	{
+	private:
+		int _size;
 
-public:
-	explicit Rim(int size);
+	public:
+		explicit Rim(int size);
 
-	int size() const;
-};
+		int size() const;
+	};
+}

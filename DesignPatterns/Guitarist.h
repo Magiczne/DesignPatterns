@@ -1,7 +1,10 @@
 #pragma once
 
-class Guitarist
+namespace Facade
 {
-public:
-	void play() const;
-};
+	class Guitarist
+	{
+	public:
+		void play() const;
+	};
+}

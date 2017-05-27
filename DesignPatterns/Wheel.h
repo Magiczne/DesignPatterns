@@ -2,19 +2,22 @@
 
 #include <memory>
 
-#include "Rim.h"
-#include "Tire.h"
-
-class Wheel
+namespace Builder
 {
-private:
-	std::shared_ptr<Rim> _rim;
-	std::shared_ptr<Tire> _tire;
+	class Rim;
+	class Tire;
 
-public:
-	std::shared_ptr<Rim> rim() const;
-	std::shared_ptr<Tire> tire() const;
+	class Wheel
+	{
+	private:
+		std::shared_ptr<Rim> _rim;
+		std::shared_ptr<Tire> _tire;
 
-	void rim(std::shared_ptr<Rim> value);
-	void tire(std::shared_ptr<Tire> value);
-};
+	public:
+		std::shared_ptr<Rim> rim() const;
+		std::shared_ptr<Tire> tire() const;
+
+		void rim(std::shared_ptr<Rim> value);
+		void tire(std::shared_ptr<Tire> value);
+	};
+}

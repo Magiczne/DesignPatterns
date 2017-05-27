@@ -1,11 +1,15 @@
 #pragma once
+
 #include <string>
 
-class Square
+namespace Adapter
 {
-private:
-	std::string _name = "Square";
+	class Square
+	{
+	private:
+		std::string _name = "Square";
 
-public:
-	void draw(int x, int y) const;
-};
+	public:
+		void draw(int x, int y) const;
+	};
+}

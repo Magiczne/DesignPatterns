@@ -3,6 +3,7 @@
 #include <iostream>
 
 using namespace std;
+using namespace Adapter;
 
 void Square::draw(int x, int y) const
 {

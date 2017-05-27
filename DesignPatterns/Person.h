@@ -3,20 +3,23 @@
 #include <memory>
 #include <string>
 
-#include "IMediator.h"
-
-class Person
+namespace Mediator
 {
-private:
-	std::shared_ptr<IMediator> _mediator;
-	std::string _name;
+	class IMediator;
 
-public:
-	explicit Person(std::string name);
+	class Person
+	{
+	private:
+		std::shared_ptr<IMediator> _mediator;
+		std::string _name;
 
-	void mediator(std::shared_ptr<IMediator> value);
-	std::string name() const;
+	public:
+		explicit Person(std::string name);
 
-	void tell(std::string name, std::string message) const;
-	void listen(std::string message) const;
-};
+		void mediator(std::shared_ptr<IMediator> value);
+		std::string name() const;
+
+		void tell(std::string name, std::string message) const;
+		void listen(std::string message) const;
+	};
+}

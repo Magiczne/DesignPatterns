@@ -1,9 +1,12 @@
 #pragma once
 
-class IWarrior
+namespace Composite
 {
-public:
-	virtual void attack() = 0;
+	class IWarrior
+	{
+	public:
+		virtual void attack() = 0;
 
-	virtual ~IWarrior() = default;
-};
+		virtual ~IWarrior() = default;
+	};
+}

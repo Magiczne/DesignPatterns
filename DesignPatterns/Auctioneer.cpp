@@ -1,6 +1,8 @@
 #include "Auctioneer.h"
+#include "Bidder.h"
 
 using namespace std;
+using namespace Observer;
 
 void Auctioneer::acceptBid(int bid)
 {

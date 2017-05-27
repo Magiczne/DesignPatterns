@@ -1,5 +1,7 @@
 #include "Band.h"
 
+using namespace Facade;
+
 void Band::playSong() const
 {
 	_leadGuitarist.play();

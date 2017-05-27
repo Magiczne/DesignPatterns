@@ -1,6 +1,9 @@
 #include "ATVWheelBuilder.h"
+#include "Rim.h"
+#include "Tire.h"
 
 using namespace std;
+using namespace Builder;
 
 shared_ptr<Rim> ATVWheelBuilder::rim()
 {

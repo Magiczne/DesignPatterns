@@ -1,12 +1,17 @@
 #pragma once
-#pragma once
 
 #include "IWheelBuilder.h"
 
-class ATVWheelBuilder
-	: public IWheelBuilder
+namespace Builder
 {
-public:
-	std::shared_ptr<Rim> rim() override;
-	std::shared_ptr<Tire> tire() override;
-};
+	class Rim;
+	class Tire;
+
+	class ATVWheelBuilder
+		: public IWheelBuilder
+	{
+	public:
+		std::shared_ptr<Rim> rim() override;
+		std::shared_ptr<Tire> tire() override;
+	};
+}

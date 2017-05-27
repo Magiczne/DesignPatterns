@@ -1,9 +1,12 @@
 #pragma once
 
-class IFlyingStrategy
+namespace Strategy
 {
-public:
-	virtual void fly() = 0;
+	class IFlyingStrategy
+	{
+	public:
+		virtual void fly() = 0;
 
-	virtual ~IFlyingStrategy() = default;
-};
+		virtual ~IFlyingStrategy() = default;
+	};
+}

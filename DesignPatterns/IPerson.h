@@ -2,10 +2,13 @@
 
 #include <string>
 
-class IPerson
+namespace FactoryMethod
 {
-public:
-	virtual std::string name() = 0;
+	class IPerson
+	{
+	public:
+		virtual std::string name() = 0;
 
-	virtual ~IPerson() = default;
-};
+		virtual ~IPerson() = default;
+	};
+}

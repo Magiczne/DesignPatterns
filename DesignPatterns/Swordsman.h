@@ -2,9 +2,11 @@
 
 #include "IWarrior.h"
 
-class Swordsman
-	: public IWarrior
+namespace Composite
 {
-public:
-	void attack() override;
-};
+	class Swordsman : public IWarrior
+	{
+	public:
+		void attack() override;
+	};
+}

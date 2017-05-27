@@ -1,6 +1,9 @@
 #include "Townsman.h"
 
-std::string Townsman::name()
+using namespace std;
+using namespace FactoryMethod;
+
+string Townsman::name()
 {
 	return "Townsman";
 }

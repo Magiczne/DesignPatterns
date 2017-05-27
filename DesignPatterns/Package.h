@@ -2,16 +2,18 @@
 
 #include "IItem.h"
 
-class Package 
-	: public IItem
+namespace Prototype
 {
-private:
-	int _itemsInside;
+	class Package : public IItem
+	{
+	private:
+		int _itemsInside;
 
-public:
-	explicit Package(int itemsInside);
+	public:
+		explicit Package(int itemsInside);
 
-	int itemsInside() const;
+		int itemsInside() const;
 
-	std::shared_ptr<IItem> clone() override;
-};
+		std::shared_ptr<IItem> clone() override;
+	};
+}

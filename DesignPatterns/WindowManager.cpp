@@ -1,8 +1,11 @@
 #include "WindowManager.h"
 
 using namespace std;
+using namespace Singleton;
 
-WindowManager::WindowManager() {}
+WindowManager::WindowManager()
+{
+}
 
 shared_ptr<WindowManager> WindowManager::getInstance()
 {

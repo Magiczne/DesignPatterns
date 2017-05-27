@@ -1,6 +1,7 @@
 #include "VolumeMeter.h"
 
 using namespace std;
+using namespace Memento;
 
 void VolumeMeter::volume(int value)
 {

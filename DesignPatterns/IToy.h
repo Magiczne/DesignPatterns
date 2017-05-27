@@ -2,10 +2,13 @@
 
 #include <string>
 
-class IToy
+namespace AbstractFactory
 {
-public:
-	virtual std::string name() = 0;
+	class IToy
+	{
+	public:
+		virtual std::string name() = 0;
 
-	virtual ~IToy() = default;
-};
+		virtual ~IToy() = default;
+	};
+}

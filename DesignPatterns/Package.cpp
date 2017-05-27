@@ -1,6 +1,7 @@
 #include "Package.h"
 
 using namespace std;
+using namespace Prototype;
 
 Package::Package(int itemsInside)
 {
@@ -13,7 +14,7 @@ shared_ptr<IItem> Package::clone()
 	return static_pointer_cast<IItem>(package);
 }
 
-int Package::itemsInside()const
+int Package::itemsInside() const
 {
 	return this->_itemsInside;
 }

@@ -2,8 +2,11 @@
 
 #include "IToy.h"
 
-class Car : public IToy
+namespace AbstractFactory
 {
-public:
-	std::string name() override;
-};
+	class Car : public IToy
+	{
+	public:
+		std::string name() override;
+	};
+}

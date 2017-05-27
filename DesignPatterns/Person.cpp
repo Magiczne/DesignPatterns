@@ -1,8 +1,10 @@
 #include "Person.h"
+#include "IMediator.h"
 
 #include <iostream>
 
 using namespace std;
+using namespace Mediator;
 
 Person::Person(string name)
 {

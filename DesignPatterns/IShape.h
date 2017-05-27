@@ -1,9 +1,12 @@
 #pragma once
 
-class IShape
+namespace Adapter
 {
-public:
-	virtual void draw(int x, int y) = 0;
+	class IShape
+	{
+	public:
+		virtual void draw(int x, int y) = 0;
 
-	virtual ~IShape() = default;
-};
+		virtual ~IShape() = default;
+	};
+}

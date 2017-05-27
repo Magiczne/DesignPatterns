@@ -1,7 +1,10 @@
 #include "BlackCoffee.h"
 
-BlackCoffee::BlackCoffee(double cost)
-	: _cost(cost) {}
+using namespace Decorator;
+
+BlackCoffee::BlackCoffee(double cost) : _cost(cost)
+{
+}
 
 double BlackCoffee::cost()
 {

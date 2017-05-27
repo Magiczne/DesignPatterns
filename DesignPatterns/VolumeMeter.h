@@ -4,14 +4,17 @@
 
 #include <memory>
 
-class VolumeMeter
+namespace Memento
 {
-private:
-	int _volume = 0;
+	class VolumeMeter
+	{
+	private:
+		int _volume = 0;
 
-public:
-	void volume(int value);
+	public:
+		void volume(int value);
 
-	void restoreState(const VolumeMemento& state);
-	std::shared_ptr<VolumeMemento> saveState();
-};
+		void restoreState(const VolumeMemento& state);
+		std::shared_ptr<VolumeMemento> saveState();
+	};
+}

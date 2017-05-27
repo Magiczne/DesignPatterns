@@ -1,12 +1,16 @@
 #pragma once
 
-#include "IPerson.h"
 #include "PersonType.h"
 
 #include <memory>
 
-class PeopleFactory
+namespace FactoryMethod
 {
-public:
-	std::shared_ptr<IPerson> createPerson(PersonType type) const;
-};
+	class IPerson;
+
+	class PeopleFactory
+	{
+	public:
+		std::shared_ptr<IPerson> createPerson(PersonType type) const;
+	};
+}

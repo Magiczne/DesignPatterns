@@ -2,10 +2,16 @@
 
 #include "IWheelBuilder.h"
 
-class SportsWheelBuilder 
-	: public IWheelBuilder
+namespace Builder
 {
-public:
-	std::shared_ptr<Rim> rim() override;
-	std::shared_ptr<Tire> tire() override;
-};
+	class Rim;
+	class Tire;
+
+	class SportsWheelBuilder
+		: public IWheelBuilder
+	{
+	public:
+		std::shared_ptr<Rim> rim() override;
+		std::shared_ptr<Tire> tire() override;
+	};
+}

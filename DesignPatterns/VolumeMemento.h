@@ -1,12 +1,15 @@
 #pragma once
 
-class VolumeMemento
+namespace Memento
 {
-private:
-	int _volume;
+	class VolumeMemento
+	{
+	private:
+		int _volume;
 
-public:
-	explicit VolumeMemento(int volume);
+	public:
+		explicit VolumeMemento(int volume);
 
-	int volume() const;
-};
+		int volume() const;
+	};
+}

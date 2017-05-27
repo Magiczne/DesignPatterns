@@ -82,7 +82,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -186,7 +190,7 @@
     <ClInclude Include="IWheelBuilder.h" />
     <ClInclude Include="JPGImage.h" />
     <ClInclude Include="Band.h" />
-    <ClInclude Include="Mediator.h" />
+    <ClInclude Include="PeopleMediator.h" />
     <ClInclude Include="Middleware.h" />
     <ClInclude Include="NotFlying.h" />
     <ClInclude Include="Package.h" />

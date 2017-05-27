@@ -2,11 +2,13 @@
 
 #include "Duck.h"
 
-class WildDuck
-	: public Duck
+namespace Strategy
 {
-public:
-	WildDuck();
+	class WildDuck : public Duck
+	{
+	public:
+		WildDuck();
 
-	void showMe() override;
-};
+		void showMe() override;
+	};
+}

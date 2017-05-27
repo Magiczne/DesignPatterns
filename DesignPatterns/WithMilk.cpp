@@ -1,7 +1,10 @@
 #include "WithMilk.h"
 
-WithMilk::WithMilk(std::shared_ptr<ICoffee> coffee)
-	: CoffeeDecorator(coffee) {}
+using namespace Decorator;
+
+WithMilk::WithMilk(std::shared_ptr<ICoffee> coffee) : CoffeeDecorator(coffee)
+{
+}
 
 double WithMilk::cost()
 {

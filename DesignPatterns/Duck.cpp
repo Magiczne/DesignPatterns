@@ -1,6 +1,8 @@
 #include "Duck.h"
+#include "IFlyingStrategy.h"
 
 using namespace std;
+using namespace Strategy;
 
 void Duck::fly() const
 {

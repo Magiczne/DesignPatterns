@@ -1,6 +1,8 @@
 #include "IWheelBuilder.h"
+#include "Wheel.h"
 
 using namespace std;
+using namespace Builder;
 
 shared_ptr<Wheel> IWheelBuilder::build()
 {

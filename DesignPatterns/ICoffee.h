@@ -1,9 +1,12 @@
 #pragma once
 
-class ICoffee
+namespace Decorator
 {
-public:
-	virtual double cost() = 0;
+	class ICoffee
+	{
+	public:
+		virtual double cost() = 0;
 
-	virtual ~ICoffee() = default;
-};
+		virtual ~ICoffee() = default;
+	};
+}

@@ -2,11 +2,13 @@
 
 #include "Duck.h"
 
-class RubberDuck
-	: public Duck
+namespace Strategy
 {
-public:
-	RubberDuck();
+	class RubberDuck : public Duck
+	{
+	public:
+		RubberDuck();
 
-	void showMe() override;
-};
+		void showMe() override;
+	};
+}

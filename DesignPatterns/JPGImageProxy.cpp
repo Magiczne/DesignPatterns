@@ -1,6 +1,9 @@
 #include "JPGImageProxy.h"
+#include "JPGImage.h"
 
 using namespace std;
+using namespace Proxy;
+
 
 JPGImageProxy::JPGImageProxy(string filename)
 {
@@ -9,7 +12,7 @@ JPGImageProxy::JPGImageProxy(string filename)
 
 void JPGImageProxy::show()
 {
-	if(this->_image == nullptr)
+	if (this->_image == nullptr)
 	{
 		this->_image = make_shared<JPGImage>(this->_filename);
 	}

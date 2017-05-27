@@ -1,7 +1,10 @@
 #pragma once
 
-class Vocalist
+namespace Facade
 {
-public:
-	void sing() const;
-};
+	class Vocalist
+	{
+	public:
+		void sing() const;
+	};
+}

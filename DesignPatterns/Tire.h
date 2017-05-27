@@ -2,13 +2,16 @@
 
 #include <string>
 
-class Tire
+namespace Builder
 {
-private:
-	std::string _treadType;
+	class Tire
+	{
+	private:
+		std::string _treadType;
 
-public:
-	explicit Tire(std::string treadType);
+	public:
+		explicit Tire(std::string treadType);
 
-	std::string treadType() const;
-};
+		std::string treadType() const;
+	};
+}

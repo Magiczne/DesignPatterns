@@ -1,9 +1,12 @@
 #pragma once
 
-class IImage
+namespace Proxy
 {
-public:
-	virtual void show() = 0;
+	class IImage
+	{
+	public:
+		virtual void show() = 0;
 
-	virtual ~IImage() = default;
-};
+		virtual ~IImage() = default;
+	};
+}

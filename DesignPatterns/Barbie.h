@@ -2,8 +2,11 @@
 
 #include "IToy.h"
 
-class Barbie : public IToy
+namespace AbstractFactory
 {
-public:
-	std::string name() override;
-};
+	class Barbie : public IToy
+	{
+	public:
+		std::string name() override;
+	};
+}

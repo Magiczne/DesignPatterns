@@ -3,6 +3,7 @@
 #include <iostream>
 
 using namespace std;
+using namespace Facade;
 
 void Vocalist::sing() const
 {

@@ -1,9 +1,12 @@
 #pragma once
+
 #include "IFlyingStrategy.h"
 
-class NotFlying
-	: public IFlyingStrategy
+namespace Strategy
 {
-public:
-	void fly() override;
-};
+	class NotFlying : public IFlyingStrategy
+	{
+	public:
+		void fly() override;
+	};
+}

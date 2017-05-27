@@ -1,5 +1,7 @@
 #include "VolumeMemento.h"
 
+using namespace Memento;
+
 VolumeMemento::VolumeMemento(int volume)
 {
 	this->_volume = volume;

@@ -2,10 +2,13 @@
 
 #include <memory>
 
-class IItem
+namespace Prototype
 {
-public:
-	virtual std::shared_ptr<IItem> clone() = 0;
+	class IItem
+	{
+	public:
+		virtual std::shared_ptr<IItem> clone() = 0;
 
-	virtual ~IItem() = default;
-};
+		virtual ~IItem() = default;
+	};
+}

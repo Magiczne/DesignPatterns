@@ -1,17 +1,21 @@
 #pragma once
 
 #include <memory>
-#include "Rim.h"
-#include "Tire.h"
-#include "Wheel.h"
 
-class IWheelBuilder
+namespace Builder
 {
-public:
-	virtual std::shared_ptr<Rim> rim() = 0;
-	virtual std::shared_ptr<Tire> tire() = 0;
+	class Rim;
+	class Tire;
+	class Wheel;
 
-	virtual std::shared_ptr<Wheel> build();
+	class IWheelBuilder
+	{
+	public:
+		virtual std::shared_ptr<Rim> rim() = 0;
+		virtual std::shared_ptr<Tire> tire() = 0;
 
-	virtual ~IWheelBuilder() = default;
-};
+		virtual std::shared_ptr<Wheel> build();
+
+		virtual ~IWheelBuilder() = default;
+	};
+}

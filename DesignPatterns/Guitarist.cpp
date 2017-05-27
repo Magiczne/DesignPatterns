@@ -3,6 +3,7 @@
 #include <iostream>
 
 using namespace std;
+using namespace Facade;
 
 void Guitarist::play() const
 {

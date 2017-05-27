@@ -2,8 +2,11 @@
 
 #include "IPerson.h"
 
-class Peasant : public IPerson
+namespace FactoryMethod
 {
-public:
-	std::string name() override;
-};
+	class Peasant : public IPerson
+	{
+	public:
+		std::string name() override;
+	};
+}

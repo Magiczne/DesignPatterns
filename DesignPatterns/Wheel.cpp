@@ -1,5 +1,7 @@
 #include "Wheel.h"
 
+using namespace Builder;
+
 std::shared_ptr<Rim> Wheel::rim() const
 {
 	return this->_rim;

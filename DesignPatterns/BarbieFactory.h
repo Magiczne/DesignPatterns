@@ -2,8 +2,13 @@
 
 #include "IToyFactory.h"
 
-class BarbieFactory : public IToyFactory
+namespace AbstractFactory
 {
-public:
-	std::shared_ptr<IToy> createToy() override;
-};
+	class IToy;
+
+	class BarbieFactory : public IToyFactory
+	{
+	public:
+		std::shared_ptr<IToy> createToy() override;
+	};
+}

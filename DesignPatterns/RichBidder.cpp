@@ -1,7 +1,9 @@
 #include "RichBidder.h"
+
 #include <iostream>
 
 using namespace std;
+using namespace Observer;
 
 RichBidder::RichBidder(int cash)
 	: Bidder(cash)

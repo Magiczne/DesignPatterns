@@ -1,6 +1,6 @@
-#pragma once
-
 #include "Tire.h"
+
+using namespace Builder;
 
 Tire::Tire(std::string treadType)
 {

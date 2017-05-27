@@ -1,6 +1,7 @@
 #include "CoffeeDecorator.h"
 
 using namespace std;
+using namespace Decorator;
 
 CoffeeDecorator::CoffeeDecorator(shared_ptr<ICoffee> coffee)
 {

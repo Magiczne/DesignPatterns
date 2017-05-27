@@ -1,6 +1,7 @@
 #include "Request.h"
 
 using namespace std;
+using namespace CoR;
 
 string Request::data() const
 {

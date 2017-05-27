@@ -1,9 +1,14 @@
 #pragma once
 
-class IMediator
-{
-public:
-	virtual void sendMessage(std::string name, std::string message) = 0;
+#include <string>
 
-	virtual ~IMediator() = default;
-};
+namespace Mediator
+{
+	class IMediator
+	{
+	public:
+		virtual void sendMessage(std::string name, std::string message) = 0;
+
+		virtual ~IMediator() = default;
+	};
+}

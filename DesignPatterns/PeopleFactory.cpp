@@ -4,16 +4,17 @@
 #include "Townsman.h"
 
 using namespace std;
+using namespace FactoryMethod;
 
 shared_ptr<IPerson> PeopleFactory::createPerson(PersonType type) const
 {
-	switch(type)
+	switch (type)
 	{
-	case Rural: 
+	case Rural:
 		return make_shared<Peasant>();
-	case Urban: 
+	case Urban:
 		return make_shared<Townsman>();
-	default: 
+	default:
 		throw exception("Invalid type");
 	}
 }
