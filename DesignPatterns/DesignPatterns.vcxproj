@@ -132,6 +132,7 @@
     <ClCompile Include="CoffeeDecorator.cpp" />
     <ClCompile Include="DisposeItem.cpp" />
     <ClCompile Include="Duck.cpp" />
+    <ClCompile Include="Fruit.cpp" />
     <ClCompile Include="Guitarist.cpp" />
     <ClCompile Include="IWheelBuilder.cpp" />
     <ClCompile Include="JPGImage.cpp" />
@@ -181,6 +182,7 @@
     <ClInclude Include="CoffeeDecorator.h" />
     <ClInclude Include="DisposeItem.h" />
     <ClInclude Include="Duck.h" />
+    <ClInclude Include="Fruit.h" />
     <ClInclude Include="Guitarist.h" />
     <ClInclude Include="ICoffee.h" />
     <ClInclude Include="IFlyingStrategy.h" />

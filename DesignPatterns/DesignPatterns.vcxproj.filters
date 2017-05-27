@@ -15,25 +15,25 @@
       <Filter>Structural\Decorator</Filter>
     </ClCompile>
     <ClCompile Include="Peasant.cpp">
-      <Filter>Creational\FactoryMethod</Filter>
+      <Filter>Creational\Factory Method</Filter>
     </ClCompile>
     <ClCompile Include="Townsman.cpp">
-      <Filter>Creational\FactoryMethod</Filter>
+      <Filter>Creational\Factory Method</Filter>
     </ClCompile>
     <ClCompile Include="PeopleFactory.cpp">
-      <Filter>Creational\FactoryMethod</Filter>
+      <Filter>Creational\Factory Method</Filter>
     </ClCompile>
     <ClCompile Include="Barbie.cpp">
-      <Filter>Creational\AbstractFactory</Filter>
+      <Filter>Creational\Abstract Factory</Filter>
     </ClCompile>
     <ClCompile Include="Car.cpp">
-      <Filter>Creational\AbstractFactory</Filter>
+      <Filter>Creational\Abstract Factory</Filter>
     </ClCompile>
     <ClCompile Include="BarbieFactory.cpp">
-      <Filter>Creational\AbstractFactory</Filter>
+      <Filter>Creational\Abstract Factory</Filter>
     </ClCompile>
     <ClCompile Include="CarFactory.cpp">
-      <Filter>Creational\AbstractFactory</Filter>
+      <Filter>Creational\Abstract Factory</Filter>
     </ClCompile>
     <ClCompile Include="Package.cpp">
       <Filter>Creational\Prototype</Filter>
@@ -81,10 +81,10 @@
       <Filter>Structural\Facade</Filter>
     </ClCompile>
     <ClCompile Include="Request.cpp">
-      <Filter>Behavioral\ChainOfResponsibility</Filter>
+      <Filter>Behavioral\Chain of Responsibility</Filter>
     </ClCompile>
     <ClCompile Include="Middleware.cpp">
-      <Filter>Behavioral\ChainOfResponsibility</Filter>
+      <Filter>Behavioral\Chain of Responsibility</Filter>
     </ClCompile>
     <ClCompile Include="Auctioneer.cpp">
       <Filter>Behavioral\Observer</Filter>
@@ -143,6 +143,9 @@
     <ClCompile Include="DisposeItem.cpp">
       <Filter>Behavioral\State</Filter>
     </ClCompile>
+    <ClCompile Include="Fruit.cpp">
+      <Filter>Creational\Lazy Initialization</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -162,18 +165,6 @@
     </Filter>
     <Filter Include="Structural\Decorator\Header Files">
       <UniqueIdentifier>{a2776eda-e993-4c88-8b8d-5d28850462d3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Creational\FactoryMethod">
-      <UniqueIdentifier>{90ec3128-52ae-42ef-8aa9-a1260a30e4cb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Creational\FactoryMethod\Header Files">
-      <UniqueIdentifier>{1192e46e-411a-419f-969e-89449903ccda}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Creational\AbstractFactory">
-      <UniqueIdentifier>{881490c5-ba5a-440c-85ef-c4b28098849b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Creational\AbstractFactory\Header Files">
-      <UniqueIdentifier>{8b9aebe8-118f-4bed-b8c5-fc59a612135c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Creational\Prototype">
       <UniqueIdentifier>{c80cb7a8-70b0-4c6b-92dc-47197e4a3a0d}</UniqueIdentifier>
@@ -204,12 +195,6 @@
     </Filter>
     <Filter Include="Structural\Facade\Header Files">
       <UniqueIdentifier>{11ffa1ce-311f-4b5c-ad85-a56574f07838}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Behavioral\ChainOfResponsibility">
-      <UniqueIdentifier>{99c9682e-0f02-47d0-a032-d3384d5b1dae}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Behavioral\ChainOfResponsibility\Header Files">
-      <UniqueIdentifier>{16389fdc-232b-4146-918e-4485a73ca67c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Behavioral\Observer">
       <UniqueIdentifier>{3ce81ce5-3ff4-4d39-96d0-cdcdee6b671d}</UniqueIdentifier>
@@ -247,6 +232,27 @@
     <Filter Include="Behavioral\State\Header Files">
       <UniqueIdentifier>{be6f444a-c3ae-40ab-b7e1-35d2ea58aea0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Creational\Lazy Initialization">
+      <UniqueIdentifier>{2c363b69-6268-48f1-889c-bdc266ba680d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\Factory Method">
+      <UniqueIdentifier>{90ec3128-52ae-42ef-8aa9-a1260a30e4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\Factory Method\Header Files">
+      <UniqueIdentifier>{1192e46e-411a-419f-969e-89449903ccda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\Abstract Factory">
+      <UniqueIdentifier>{881490c5-ba5a-440c-85ef-c4b28098849b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\Abstract Factory\Header Files">
+      <UniqueIdentifier>{8b9aebe8-118f-4bed-b8c5-fc59a612135c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Chain of Responsibility">
+      <UniqueIdentifier>{99c9682e-0f02-47d0-a032-d3384d5b1dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Chain of Responsibility\Header Files">
+      <UniqueIdentifier>{16389fdc-232b-4146-918e-4485a73ca67c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WindowManager.h">
@@ -265,37 +271,37 @@
       <Filter>Structural\Decorator\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IPerson.h">
-      <Filter>Creational\FactoryMethod\Header Files</Filter>
+      <Filter>Creational\Factory Method\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Peasant.h">
-      <Filter>Creational\FactoryMethod\Header Files</Filter>
+      <Filter>Creational\Factory Method\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Townsman.h">
-      <Filter>Creational\FactoryMethod\Header Files</Filter>
+      <Filter>Creational\Factory Method\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PersonType.h">
-      <Filter>Creational\FactoryMethod\Header Files</Filter>
+      <Filter>Creational\Factory Method\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PeopleFactory.h">
-      <Filter>Creational\FactoryMethod\Header Files</Filter>
+      <Filter>Creational\Factory Method\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IToyFactory.h">
-      <Filter>Creational\AbstractFactory\Header Files</Filter>
+      <Filter>Creational\Abstract Factory\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BarbieFactory.h">
-      <Filter>Creational\AbstractFactory\Header Files</Filter>
+      <Filter>Creational\Abstract Factory\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CarFactory.h">
-      <Filter>Creational\AbstractFactory\Header Files</Filter>
+      <Filter>Creational\Abstract Factory\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Barbie.h">
-      <Filter>Creational\AbstractFactory\Header Files</Filter>
+      <Filter>Creational\Abstract Factory\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Car.h">
-      <Filter>Creational\AbstractFactory\Header Files</Filter>
+      <Filter>Creational\Abstract Factory\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IToy.h">
-      <Filter>Creational\AbstractFactory\Header Files</Filter>
+      <Filter>Creational\Abstract Factory\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Package.h">
       <Filter>Creational\Prototype\Header Files</Filter>
@@ -352,10 +358,10 @@
       <Filter>Structural\Facade\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Request.h">
-      <Filter>Behavioral\ChainOfResponsibility\Header Files</Filter>
+      <Filter>Behavioral\Chain of Responsibility\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Middleware.h">
-      <Filter>Behavioral\ChainOfResponsibility\Header Files</Filter>
+      <Filter>Behavioral\Chain of Responsibility\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Auctioneer.h">
       <Filter>Behavioral\Observer\Header Files</Filter>
@@ -425,6 +431,9 @@
     </ClInclude>
     <ClInclude Include="DisposeItem.h">
       <Filter>Behavioral\State\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fruit.h">
+      <Filter>Creational\Lazy Initialization</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
