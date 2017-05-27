@@ -131,6 +131,18 @@
     <ClCompile Include="VolumeMeter.cpp">
       <Filter>Behavioral\Memento</Filter>
     </ClCompile>
+    <ClCompile Include="VendingMachine.cpp">
+      <Filter>Behavioral\State</Filter>
+    </ClCompile>
+    <ClCompile Include="VendingMachineState.cpp">
+      <Filter>Behavioral\State</Filter>
+    </ClCompile>
+    <ClCompile Include="TakeMoney.cpp">
+      <Filter>Behavioral\State</Filter>
+    </ClCompile>
+    <ClCompile Include="DisposeItem.cpp">
+      <Filter>Behavioral\State</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -228,6 +240,12 @@
     </Filter>
     <Filter Include="Behavioral\Memento\Header Files">
       <UniqueIdentifier>{cb29dab0-26f5-4bab-9b3f-6d86c43038dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\State">
+      <UniqueIdentifier>{3cd89496-4cf2-40c2-bb26-22d94558990b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\State\Header Files">
+      <UniqueIdentifier>{be6f444a-c3ae-40ab-b7e1-35d2ea58aea0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -395,6 +413,18 @@
     </ClInclude>
     <ClInclude Include="PeopleMediator.h">
       <Filter>Behavioral\Mediator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VendingMachine.h">
+      <Filter>Behavioral\State\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VendingMachineState.h">
+      <Filter>Behavioral\State\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TakeMoney.h">
+      <Filter>Behavioral\State\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisposeItem.h">
+      <Filter>Behavioral\State\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

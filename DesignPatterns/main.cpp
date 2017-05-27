@@ -3,8 +3,6 @@
  * TODO: Flyweight
  * 
  * TODO: Command
- * TODO: Memento
- * TODO: State
  * TODO: Visitor
  *
  */

@@ -130,6 +130,7 @@
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="CircleAdapter.cpp" />
     <ClCompile Include="CoffeeDecorator.cpp" />
+    <ClCompile Include="DisposeItem.cpp" />
     <ClCompile Include="Duck.cpp" />
     <ClCompile Include="Guitarist.cpp" />
     <ClCompile Include="IWheelBuilder.cpp" />
@@ -150,8 +151,11 @@
     <ClCompile Include="Square.cpp" />
     <ClCompile Include="SquareAdapter.cpp" />
     <ClCompile Include="Swordsman.cpp" />
+    <ClCompile Include="TakeMoney.cpp" />
     <ClCompile Include="Tire.cpp" />
     <ClCompile Include="Townsman.cpp" />
+    <ClCompile Include="VendingMachine.cpp" />
+    <ClCompile Include="VendingMachineState.cpp" />
     <ClCompile Include="Vocalist.cpp" />
     <ClCompile Include="VolumeMemento.cpp" />
     <ClCompile Include="VolumeMeter.cpp" />
@@ -175,6 +179,7 @@
     <ClInclude Include="Circle.h" />
     <ClInclude Include="CircleAdapter.h" />
     <ClInclude Include="CoffeeDecorator.h" />
+    <ClInclude Include="DisposeItem.h" />
     <ClInclude Include="Duck.h" />
     <ClInclude Include="Guitarist.h" />
     <ClInclude Include="ICoffee.h" />
@@ -206,9 +211,12 @@
     <ClInclude Include="Square.h" />
     <ClInclude Include="SquareAdapter.h" />
     <ClInclude Include="Swordsman.h" />
+    <ClInclude Include="TakeMoney.h" />
     <ClInclude Include="Tire.h" />
     <ClInclude Include="Townsman.h" />
     <ClInclude Include="IToy.h" />
+    <ClInclude Include="VendingMachine.h" />
+    <ClInclude Include="VendingMachineState.h" />
     <ClInclude Include="Vocalist.h" />
     <ClInclude Include="VolumeMemento.h" />
     <ClInclude Include="VolumeMeter.h" />
