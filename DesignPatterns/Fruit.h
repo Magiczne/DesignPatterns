@@ -16,7 +16,5 @@ namespace LazyInit
 	public:
 		static Fruit* getFruitByName(const std::string& name);
 		static void showAll();
-
-		~Fruit();
 	};
 }

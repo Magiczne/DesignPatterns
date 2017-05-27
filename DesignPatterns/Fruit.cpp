@@ -30,11 +30,3 @@ void Fruit::showAll()
 		cout << pair.first << endl;
 	}
 }
-
-Fruit::~Fruit()
-{
-	for (auto ptr : _fruits)
-	{
-		delete ptr.second;
-	}
-}
