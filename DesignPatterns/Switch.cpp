@@ -1,4 +1,5 @@
 #include "Switch.h"
+#include "SwitchImplementation.h"
 
 using namespace std;
 using namespace Bridge;

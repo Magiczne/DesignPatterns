@@ -1,11 +1,11 @@
 #pragma once
 
-#include "SwitchImplementation.h"
-
 #include <memory>
 
 namespace Bridge
 {
+	class SwitchImplementation;
+
 	class Switch
 	{
 	protected:

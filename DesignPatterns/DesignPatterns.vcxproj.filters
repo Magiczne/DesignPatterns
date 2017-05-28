@@ -158,6 +158,18 @@
     <ClCompile Include="AdvancedSwitchImplementation.cpp">
       <Filter>Structural\Bridge</Filter>
     </ClCompile>
+    <ClCompile Include="PhotosStock.cpp">
+      <Filter>Behavioral\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Buy.cpp">
+      <Filter>Behavioral\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Sell.cpp">
+      <Filter>Behavioral\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="TravelAgent.cpp">
+      <Filter>Behavioral\Command</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -270,6 +282,12 @@
     </Filter>
     <Filter Include="Structural\Bridge\Header Files">
       <UniqueIdentifier>{fb934400-8bf7-4e1f-bc25-72b4f3cb3fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Command">
+      <UniqueIdentifier>{96e49402-1ccf-40b3-839f-a3e041e0804f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Command\Header Files">
+      <UniqueIdentifier>{933c5af5-c926-4a06-88b5-3682352ae413}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -464,6 +482,21 @@
     </ClInclude>
     <ClInclude Include="AdvancedSwitchImplementation.h">
       <Filter>Structural\Bridge\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Behavioral\Command\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Buy.h">
+      <Filter>Behavioral\Command\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sell.h">
+      <Filter>Behavioral\Command\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TravelAgent.h">
+      <Filter>Behavioral\Command\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhotosStock.h">
+      <Filter>Behavioral\Command\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

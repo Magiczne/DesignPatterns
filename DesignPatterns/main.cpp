@@ -1,7 +1,6 @@
 /*
  * TODO: Flyweight
  * 
- * TODO: Command
  * TODO: Visitor
  *
  */

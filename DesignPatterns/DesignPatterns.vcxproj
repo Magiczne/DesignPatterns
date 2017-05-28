@@ -127,6 +127,7 @@
     <ClCompile Include="BasicFlying.cpp" />
     <ClCompile Include="Bidder.cpp" />
     <ClCompile Include="BlackCoffee.cpp" />
+    <ClCompile Include="Buy.cpp" />
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="CarFactory.cpp" />
     <ClCompile Include="Circle.cpp" />
@@ -147,9 +148,11 @@
     <ClCompile Include="Peasant.cpp" />
     <ClCompile Include="PeopleFactory.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="PhotosStock.cpp" />
     <ClCompile Include="Request.cpp" />
     <ClCompile Include="Rim.cpp" />
     <ClCompile Include="RubberDuck.cpp" />
+    <ClCompile Include="Sell.cpp" />
     <ClCompile Include="SportsWheelBuilder.cpp" />
     <ClCompile Include="Square.cpp" />
     <ClCompile Include="SquareAdapter.cpp" />
@@ -159,6 +162,7 @@
     <ClCompile Include="TakeMoney.cpp" />
     <ClCompile Include="Tire.cpp" />
     <ClCompile Include="Townsman.cpp" />
+    <ClCompile Include="TravelAgent.cpp" />
     <ClCompile Include="VendingMachine.cpp" />
     <ClCompile Include="VendingMachineState.cpp" />
     <ClCompile Include="Vocalist.cpp" />
@@ -181,6 +185,7 @@
     <ClInclude Include="BasicFlying.h" />
     <ClInclude Include="Bidder.h" />
     <ClInclude Include="BlackCoffee.h" />
+    <ClInclude Include="Buy.h" />
     <ClInclude Include="Car.h" />
     <ClInclude Include="CarFactory.h" />
     <ClInclude Include="Circle.h" />
@@ -191,6 +196,7 @@
     <ClInclude Include="Fruit.h" />
     <ClInclude Include="Guitarist.h" />
     <ClInclude Include="ICoffee.h" />
+    <ClInclude Include="ICommand.h" />
     <ClInclude Include="IFlyingStrategy.h" />
     <ClInclude Include="IImage.h" />
     <ClInclude Include="IMediator.h" />
@@ -215,9 +221,11 @@
     <ClInclude Include="RichBidder.h" />
     <ClInclude Include="Rim.h" />
     <ClInclude Include="RubberDuck.h" />
+    <ClInclude Include="Sell.h" />
     <ClInclude Include="SportsWheelBuilder.h" />
     <ClInclude Include="Square.h" />
     <ClInclude Include="SquareAdapter.h" />
+    <ClInclude Include="PhotosStock.h" />
     <ClInclude Include="Switch.h" />
     <ClInclude Include="SwitchImplementation.h" />
     <ClInclude Include="Swordsman.h" />
@@ -225,6 +233,7 @@
     <ClInclude Include="Tire.h" />
     <ClInclude Include="Townsman.h" />
     <ClInclude Include="IToy.h" />
+    <ClInclude Include="TravelAgent.h" />
     <ClInclude Include="VendingMachine.h" />
     <ClInclude Include="VendingMachineState.h" />
     <ClInclude Include="Vocalist.h" />
