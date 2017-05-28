@@ -1,5 +1,4 @@
 /*
- * TODO: Bridge
  * TODO: Flyweight
  * 
  * TODO: Command

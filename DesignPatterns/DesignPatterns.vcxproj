@@ -115,6 +115,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AdvancedSwitch.cpp" />
+    <ClCompile Include="AdvancedSwitchImplementation.cpp" />
     <ClCompile Include="Archer.cpp" />
     <ClCompile Include="Army.cpp" />
     <ClCompile Include="ATVWheelBuilder.cpp" />
@@ -151,6 +153,8 @@
     <ClCompile Include="SportsWheelBuilder.cpp" />
     <ClCompile Include="Square.cpp" />
     <ClCompile Include="SquareAdapter.cpp" />
+    <ClCompile Include="Switch.cpp" />
+    <ClCompile Include="SwitchImplementation.cpp" />
     <ClCompile Include="Swordsman.cpp" />
     <ClCompile Include="TakeMoney.cpp" />
     <ClCompile Include="Tire.cpp" />
@@ -166,6 +170,8 @@
     <ClCompile Include="WithMilk.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AdvancedSwitch.h" />
+    <ClInclude Include="AdvancedSwitchImplementation.h" />
     <ClInclude Include="Archer.h" />
     <ClInclude Include="Army.h" />
     <ClInclude Include="ATVWheelBuilder.h" />
@@ -212,6 +218,8 @@
     <ClInclude Include="SportsWheelBuilder.h" />
     <ClInclude Include="Square.h" />
     <ClInclude Include="SquareAdapter.h" />
+    <ClInclude Include="Switch.h" />
+    <ClInclude Include="SwitchImplementation.h" />
     <ClInclude Include="Swordsman.h" />
     <ClInclude Include="TakeMoney.h" />
     <ClInclude Include="Tire.h" />

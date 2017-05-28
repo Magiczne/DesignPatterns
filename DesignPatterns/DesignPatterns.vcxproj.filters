@@ -146,6 +146,18 @@
     <ClCompile Include="Fruit.cpp">
       <Filter>Creational\Lazy Initialization</Filter>
     </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Structural\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="SwitchImplementation.cpp">
+      <Filter>Structural\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedSwitch.cpp">
+      <Filter>Structural\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedSwitchImplementation.cpp">
+      <Filter>Structural\Bridge</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -252,6 +264,12 @@
     </Filter>
     <Filter Include="Behavioral\Chain of Responsibility\Header Files">
       <UniqueIdentifier>{16389fdc-232b-4146-918e-4485a73ca67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Bridge">
+      <UniqueIdentifier>{82258ef6-74f7-4fdb-8072-ebf0dda91456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Bridge\Header Files">
+      <UniqueIdentifier>{fb934400-8bf7-4e1f-bc25-72b4f3cb3fed}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -434,6 +452,18 @@
     </ClInclude>
     <ClInclude Include="Fruit.h">
       <Filter>Creational\Lazy Initialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>Structural\Bridge\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SwitchImplementation.h">
+      <Filter>Structural\Bridge\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedSwitch.h">
+      <Filter>Structural\Bridge\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedSwitchImplementation.h">
+      <Filter>Structural\Bridge\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
