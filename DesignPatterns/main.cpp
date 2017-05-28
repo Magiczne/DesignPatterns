@@ -1,7 +1,5 @@
 /*
  * TODO: Flyweight
- * 
- * TODO: Visitor
  *
  */
 

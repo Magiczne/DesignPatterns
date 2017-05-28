@@ -170,6 +170,18 @@
     <ClCompile Include="TravelAgent.cpp">
       <Filter>Behavioral\Command</Filter>
     </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Behavioral\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Behavioral\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="PC.cpp">
+      <Filter>Behavioral\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayComputerPartVisitor.cpp">
+      <Filter>Behavioral\Visitor\Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Structural">
@@ -288,6 +300,12 @@
     </Filter>
     <Filter Include="Behavioral\Command\Header Files">
       <UniqueIdentifier>{933c5af5-c926-4a06-88b5-3682352ae413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Visitor">
+      <UniqueIdentifier>{978a3825-fe54-463f-bd90-c6810d8cfa83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Visitor\Header Files">
+      <UniqueIdentifier>{23bcfefc-5afb-4b42-9588-b91c9132a268}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -497,6 +515,24 @@
     </ClInclude>
     <ClInclude Include="PhotosStock.h">
       <Filter>Behavioral\Command\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IComputerPartVisitor.h">
+      <Filter>Behavioral\Visitor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IComputerPart.h">
+      <Filter>Behavioral\Visitor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Behavioral\Visitor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Behavioral\Visitor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayComputerPartVisitor.h">
+      <Filter>Behavioral\Visitor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PC.h">
+      <Filter>Behavioral\Visitor\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
